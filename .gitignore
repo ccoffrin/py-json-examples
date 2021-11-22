@@ -1,3 +1,8 @@
+.DS_Store
+
+data/table_01-tmp.json
+data/table_02-tmp.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -1,0 +1,13 @@
+{
+    "buses":[
+        {"bus_id": 1, "name":"MSN", "vm":1.100000, "va": 0.020315, "base_kv":15},
+        {"bus_id": 2, "name":"LAM", "vm":1.090509, "va":-0.006672, "base_kv":32},
+        {"bus_id": 3, "name":"CLL", "vm":1.099738, "va": 0.009098, "base_kv":55},
+        {"bus_id": 4, "name":"ATL", "vm":1.098261, "va": 0.000000, "base_kv":230},
+        {"bus_id":10, "name":   "", "vm":1.100000, "va": 0.020318, "base_kv":400}
+    ],
+    "generators":[
+        {"gen_bus": 1, "name":"foo", "pg_lb":0.0, "pg_ub": 10.0, "pg":1.32},
+        {"gen_bus": 4, "name":"bar", "pg_lb":1.0, "pg_ub": 10.0, "pg":2.56}
+    ]
+}
